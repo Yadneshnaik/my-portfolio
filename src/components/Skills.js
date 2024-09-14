@@ -1,6 +1,6 @@
 import React from 'react';
 import './Skills.css';
-import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaDatabase, FaPython, FaNodeJs, FaJava, FaDrupal, FaWordpress } from 'react-icons/fa';
+import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaDatabase, FaPython, FaNodeJs, FaJava, FaDrupal, FaWordpress, FaPhp, FaLaravel } from 'react-icons/fa';
 import { SiFigma } from 'react-icons/si';
 
 const skills = [
@@ -13,10 +13,11 @@ const skills = [
   { name: 'Python', icon: <FaPython /> },
   { name: 'Node.js', icon: <FaNodeJs /> },
   { name: 'Java', icon: <FaJava /> },
-  { name: 'Python', icon: <FaPython /> },
   { name: 'React Native', icon: <FaReact /> },
   {name: 'Drupal', icon: <FaDrupal />},
   {name: 'Wordpress', icon: <FaWordpress />},
+  {name: 'PHP', icon: <FaPhp />},
+  {name: 'Laravel', icon: <FaLaravel />}
 ];
 
 const Skills = () => {
